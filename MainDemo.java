@@ -1,0 +1,27 @@
+/*class MainDemo{
+	public static void main(String[] args){
+		MyClass m1 = new MyClass();
+		m1.display();
+		System.out.println(MyInterface.x);
+	}
+}*/
+
+
+/*class MainDemo{
+	public static void main(String[] args){
+		MyClass m1 = new MyClass();
+		m1.show();
+	}
+}*/
+
+
+
+
+class MainDemo{
+        public static void main(String[] args){
+                NoAdapterDemo m1 = new NoAdapterDemo();
+                m1.display();
+		MyInterface.mymethod();
+        }
+}
+

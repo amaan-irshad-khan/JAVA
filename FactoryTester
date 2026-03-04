@@ -1,0 +1,9 @@
+class FactoryDemo{
+	int age;
+	String name;
+	private FactoryDemo(int a, String s){
+		age = a;
+		name = s;
+	}
+	public static FactoryDemo factory(int x, String y){
+		
